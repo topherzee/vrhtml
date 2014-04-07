@@ -5,6 +5,9 @@
  vrhtml.js is a library to render regular HTML pages in 3D for the Oculus Rift or other VR (Virtual Reality) glasses.
  It depends on three.js and associated libraries: TrackballControls.js and CSS3DRenderer.
 
+ For getting orientation information from the Oculus Rift in the browser, I recommend the npvr browser plugin at
+ https://github.com/benvanik/vr.js
+ 
  If you are just interested in rendering VR 3D with top performance, then you should probably skip this and use the existing OculusRiftEffect.js and an OpenGL renderer.
  The reason for this library is if you want to render actual HTML DOM in 3D including support for forms, etc.
 
