@@ -10,7 +10,7 @@ If you are mainly interested in rendering VR 3D with top performance, then you s
 Concretely - given the ID of an element, this library will display the contents of that element as a "stereo pair" of slightly spatially offset renderings, and will transform those two displays in response to the motion tracking of an Oculus Rift (or similar) or mouse movements. The user can callibrate the offset of the stereo pair to match their eyes with the O and P keys.
  
 vrhtml depends on three.js and associated libraries: TrackballControls.js and CSS3DRenderer.
-To access the Oculus Rift head-tracking information (eg orientation) I recommend the npvr browser plugin and vr.js library.
+To access the Oculus Rift head-tracking information from the browser (eg orientation) I recommend the npvr browser plugin and vr.js library. https://github.com/benvanik/vr.js
 
 I have included the mentioned dependencies in the libs directory to make it easy for someone to get started, but definitely you'll want to check out those projects.
 
